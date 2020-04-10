@@ -80,6 +80,9 @@ void Main(string argument)
   }
 }
 
+// Это функция для фильтрования блоков. 
+// В нее параметром передается тип блока, который нужно
+// отфильтровать. 
 bool filterThis(IMyTerminalBlock block) {
   return block.CubeGrid == Me.CubeGrid;
 }
